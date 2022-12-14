@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #202020;
+}
+
+.card {
+  width: 500px;
+  height: 300px;
+  padding: 10px;
+  border: 2px solid #b1b1b1;
+  border-radius: 20px;
+  background-color: #cacaca;
+  display: flex;
+  justify-content: space-around;
+}
+.card__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+.card__img {
+  width: 250px;
+  border: 1px solid red;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-image: url("../assets/pika.png");
+  background-size: cover;
+  background-color: lightslategray;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+}
+.card__img p {
+  position: absolute;
+  bottom: 5px;
+  font-family: "Bodoni MT";
+  font-size: 24px;
+  color: yellow;
+  background-color: rgba(32, 32, 32, 0.6666666667);
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+.card__text {
+  width: 250px;
+  border: 1px solid black;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.card__title {
+  border-bottom: 2px solid yellow;
+  width: 100%;
+}
+.card__desc {
+  margin-top: 10px;
+  padding: 5px;
+  line-height: 1.5em;
+  overflow: auto;
+}
+
+/*# sourceMappingURL=main.css.map */
